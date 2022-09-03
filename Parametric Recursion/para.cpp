@@ -1,4 +1,4 @@
-//This algorithm print sum of n number using i+1
+//This algorithm print sum of n number using i-1
 #include<iostream>
 using namespace std;
 

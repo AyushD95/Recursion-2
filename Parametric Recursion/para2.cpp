@@ -1,10 +1,10 @@
 //this algorithm print sum of n number using i+1
 #include<iostream>
 using namespace std;
-
+int n;
 void myFunction(int i,int sum)
 {
-    if (i < n)
+    if (i>n)
     {
         cout<<sum;
         return;
@@ -15,10 +15,8 @@ void myFunction(int i,int sum)
 
 int main()
 {
-    int n;
     cin>>n;
-    myFunction(1,0);
-
+    myFunction(0,0);
 
 return 0;
 }
